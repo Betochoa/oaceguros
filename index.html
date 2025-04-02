@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Test HTML Page</title>
+  <title>Embedded AppSheet App</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -11,30 +11,22 @@
       margin: 0;
       padding: 0;
     }
-    header {
-      background-color: #333;
-      color: white;
-      text-align: center;
-      padding: 20px;
-    }
-    .content {
-      margin: 20px;
-      padding: 20px;
-      background-color: white;
-      border-radius: 5px;
+    iframe {
+      border: none;
+      width: 100%;
+      height: 600px; /* You can adjust the height as needed */
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>Test HTML Page</h1>
+    <h1>Embedded AppSheet App</h1>
   </header>
 
   <div class="content">
-    <h2>Welcome to the test page!</h2>
-    <p>This is a basic HTML test page to verify if the issue is with your HTML setup or the AppSheet integration.</p>
-    <p>Try checking if this page loads correctly on GitHub Pages.</p>
+    <!-- Embed your AppSheet app here -->
+    <iframe src="https://www.appsheet.com/start/5729891f-f738-4abc-b3ed-330384d92861" width="100%" height="600"></iframe>
   </div>
 
 </body>
