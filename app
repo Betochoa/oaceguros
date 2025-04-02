@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My AppSheet App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi App de AppSheet</title>
 </head>
-<body style="margin: 0; padding: 0;">
-    <iframe src="https://www.appsheet.com/start/5729891f-f738-4abc-b3ed-330384d92861;"></iframe>
+<body>
+    <h1>Bienvenido a mi App</h1>
+    <iframe src="https://www.appsheet.com/start/5729891f-f738-4abc-b3ed-330384d92861" width="100%" height="600px" frameborder="0"></iframe>
 </body>
 </html>
